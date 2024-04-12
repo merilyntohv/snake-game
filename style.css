@@ -36,3 +36,20 @@ body {
     display: none;
  }
 
+ .score-container {
+  display: flex;
+  flex-direction: column;
+  width: 6rem;
+  gap: 8px;
+ }
+
+ #score {
+  display: flex;
+  margin-right: 1rem;
+  background-color: lightcoral;
+  border-radius: 16px;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 24px;
+ }
+
