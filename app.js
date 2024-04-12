@@ -8,6 +8,8 @@ const gameBoard = new GameBoard( boardSize );
 const snake = new Snake( boardSize );
 let food = new Food(boardSize, snake.getCoordinates());
 
+let score;
+
 const intervalId = setInterval(() => {
 
     const newHead = snake.calculateNewHead(boardSize);
